@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Bistro | Modern Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav">
+      <div class="logo">Urban Bistro</div>
+      <button class="nav__toggle" type="button" aria-label="Deschide meniul" aria-expanded="false" aria-controls="primary-menu">
+        <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+          <path d="M4 7h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/>
+        </svg>
+      </button> 
+      <ul class="nav__links" id="primary-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#hours">Visit</a></li>
+      </ul>
+      <a class="btn btn--ghost nav__cta" href="#contact">Reserve</a>
+    </nav>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Seasonal kitchen & crafted cocktails</p>
+      <h1>Urban Bistro</h1>
+      <p class="hero__tagline">Fresh food. Great taste.</p>
+      <div class="hero__actions">
+        <a id="reserve-btn" class="btn btn--primary" href="#contact">Reserve a Table</a>
+        <a class="btn btn--ghost" href="#menu">View Menu</a>
+      </div>
+    </div>
+    <div class="hero__bg" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section id="about" class="section section--light about">
+      <div class="section__header">
+        <p class="eyebrow">About</p>
+        <h2>Rooted in flavor, served with warmth</h2>
+      </div>
+      <p class="lead">
+        Urban Bistro blends modern cuisine with neighborhood comfort. Our chefs craft seasonal plates with
+        responsibly sourced ingredients, while the front-of-house team keeps the atmosphere inviting,
+        relaxed, and ready for lingering conversations.
+      </p>
+      <div class="about__highlights">
+        <div class="highlight">
+          <span class="dot"></span>
+          <p>Locally sourced produce and premium proteins.</p>
+        </div>
+        <div class="highlight">
+          <span class="dot"></span>
+          <p>Handmade sauces, doughs, and desserts made daily.</p>
+        </div>
+        <div class="highlight">
+          <span class="dot"></span>
+          <p>Warm service, curated wine list, and craft cocktails.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu">
+      <div class="section__header">
+        <p class="eyebrow">Menu Highlights</p>
+        <h2>Comfort classics with a modern twist</h2>
+      </div>
+      <div class="menu__grid">
+        <article class="card">
+          <div class="card__header">
+            <h3>Stone-Fired Pizza</h3>
+            <span class="pill">Signature</span>
+          </div>
+          <p>Hand-stretched dough, San Marzano tomatoes, and seasonal toppings finished in a 700° oven.</p>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <h3>Craft Burgers</h3>
+            <span class="pill">Favorite</span>
+          </div>
+          <p>House-ground beef, brioche buns, and bold flavor pairings like truffle aioli or chili jam.</p>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <h3>Artisan Pasta</h3>
+            <span class="pill">Fresh</span>
+          </div>
+          <p>Freshly rolled pasta with slow-simmered sauces, bright herbs, and umami-forward finishes.</p>
+        </article>
+        <article class="card">
+          <div class="card__header">
+            <h3>Drinks & Desserts</h3>
+            <span class="pill">Seasonal</span>
+          </div>
+          <p>Craft cocktails, zero-proof options, and patisserie-inspired desserts to close every meal.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section section--light gallery">
+      <div class="section__header">
+        <p class="eyebrow">Gallery</p>
+        <h2>A peek inside the kitchen & dining room</h2>
+      </div>
+      <div class="gallery__grid">
+        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=900&q=80" alt="Stone-fired pizza" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80" alt="Restaurant interior" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80" alt="Pasta plate" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Cocktail drink" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1432139509613-5c4255815697?auto=format&fit=crop&w=900&q=80" alt="Dessert with berries" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=900&q=80" alt="Chef preparing food" loading="lazy">
+      </div>
+    </section>
+
+    <section id="hours" class="section hours">
+      <div class="hours__content">
+        <div class="section__header">
+          <p class="eyebrow">Visit</p>
+          <h2>Opening hours & location</h2>
+        </div>
+        <div class="hours__details">
+          <ul>
+            <li><strong>Mon - Thu:</strong> 11:30 AM - 10:00 PM</li>
+            <li><strong>Fri:</strong> 11:30 AM - 11:00 PM</li>
+            <li><strong>Sat:</strong> 10:00 AM - 11:00 PM</li>
+            <li><strong>Sun:</strong> 10:00 AM - 9:00 PM</li>
+          </ul>
+          <p>423 Market Street, Suite 12 · Downtown</p>
+          <p>Parking available across the street. Walk-ins welcome.</p>
+        </div>
+      </div>
+      <div class="map__wrapper">
+        <iframe
+          title="Urban Bistro on Google Maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.969091515449!2d-74.00601518459311!3d40.71277517933059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a3160af7c03%3A0x44c5c59da8f5d0dd!2sTribeca!5e0!3m2!1sen!2sus!4v1691762912345!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--light contact">
+      <div class="contact__copy">
+        <div class="section__header">
+          <p class="eyebrow">Contact</p>
+          <h2>Book a table or plan a private event</h2>
+        </div>
+        <p class="lead">
+          Tell us about your reservation. This demo form is front-end only — connect it later with
+          Formspree, EmailJS, or your preferred provider to start receiving messages.
+        </p>
+        <div class="contact__meta">
+          <p><strong>Phone:</strong> (555) 201-8800</p>
+          <p><strong>Email:</strong> hello@urbanbistro.com</p>
+        </div>
+      </div>
+      <form class="contact__form" action="#" method="post" novalidate>
+        <div class="form__group">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+          <p class="form__error" data-error-for="name" role="alert"></p>
+        </div>
+        <div class="form__group">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <p class="form__error" data-error-for="email" role="alert"></p>
+        </div>
+        <div class="form__group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Reservation details or questions" required></textarea>
+          <p class="form__error" data-error-for="message" role="alert"></p>
+        </div>
+        <button class="btn btn--primary" type="submit">Send Message</button>
+        <p class="form__success" role="status" aria-live="polite"></p>
+        <p class="form__note">We typically respond within one business day.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__brand">
+      <p class="logo">Urban Bistro</p>
+      <p>Fresh flavors, warm hospitality.</p>
+    </div>
+    <div class="footer__social">
+      <a href="#" aria-label="Facebook" class="social__icon">
+        <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+          <path d="M15.12 8.5H13.5V7.1c0-.6.4-.74.68-.74h.89V4.52h-1.6c-1.76 0-2.87 1.34-2.87 3.16V8.5H9v1.84h1.59v5.14h1.92v-5.14h1.46l.15-1.84z"/>
+        </svg>
+      </a>
+      <a href="#" aria-label="Instagram" class="social__icon">
+        <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+          <path d="M7 4h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3zm0 2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7zm10.25-.75a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5zM12 8.5A3.5 3.5 0 1 1 8.5 12 3.5 3.5 0 0 1 12 8.5zm0 1.8A1.7 1.7 0 1 0 13.7 12 1.7 1.7 0 0 0 12 10.3z"/>
+        </svg>
+      </a>
+    </div>
+    <p class="footer__copy">© 2025 Urban Bistro. All rights reserved.</p>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
